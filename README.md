@@ -2,6 +2,8 @@
 
 **Dernière mise à jour : 1er septembre 2026**
 
+> 📄 [Consulter la Politique de Confidentialité de {+} Gestion](PRIVACY.md)
+
 Les présentes Conditions d’Utilisation (« Conditions ») encadrent l’installation et l’utilisation de l’application Discord **{+} Gestion** (« l’Application » ou « le Bot »). En installant le Bot, en utilisant une de ses commandes ou en interagissant avec ses composants, vous acceptez ces Conditions.
 
 ## 1. Objet du service
