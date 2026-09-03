@@ -1,6 +1,6 @@
 # Politique de Confidentialité — {+} Gestion
 
-**Dernière mise à jour : 1er septembre 2026**
+**Dernière mise à jour : 3 septembre 2026**
 
 La présente Politique de Confidentialité explique comment l’application Discord **{+} Gestion** (« l’Application » ou « le Bot ») accède aux données, les utilise, les conserve et les supprime. Elle s’applique aux utilisateurs du Bot, aux membres des serveurs sur lesquels il est installé et aux personnes utilisant ses tickets, son ModMail ou ses fonctions d’hébergement.
 
@@ -48,14 +48,15 @@ Le contenu ordinaire des ModMails n’est pas enregistré dans la table locale d
 - préfixe, paramètres de sécurité, salons et rôles configurés, panneaux, réactions, règles, délais et options choisies par le serveur ;
 - compteurs agrégés tels que le nombre de membres humains, de membres en ligne ou de personnes en vocal ;
 - identifiants nécessaires à la mise à jour des salons de statistiques.
+- lorsque le programme de croissance est activé : identifiant du membre, date d'arrivée et de départ, code et source d'invitation, dates de première et dernière activité et date estimée de réalisation de l'Onboarding par attribution d'un rôle configuré.
 
-Les bots sont exclus du compteur des membres humains en ligne. Le Bot n’établit pas de profil publicitaire à partir des statistiques.
+Le suivi de croissance enregistre des horodatages d'activité, pas le contenu des messages ou conversations utilisés pour établir ces mesures. Les bots sont exclus du compteur des membres humains en ligne. Le Bot n’établit pas de profil publicitaire à partir des statistiques.
 
 ### 2.5 Hébergement facultatif de bots
 
 Si une personne utilise la fonction d’hébergement, le Bot peut traiter :
 
-- son identifiant Discord, l’identifiant du serveur, l’identifiant du profil hébergé, son état, sa date de création et son éventuelle expiration ;
+- son identifiant Discord, l’identifiant du serveur, l’identifiant et le type du profil hébergé, son état, sa date de création et son éventuelle expiration ;
 - les informations de licence et les erreurs techniques nécessaires au fonctionnement ;
 - le token du bot fourni volontairement.
 
@@ -78,6 +79,7 @@ Les données sont utilisées uniquement pour :
 - détecter les liens, spams, raids et comportements configurés comme suspects ;
 - ouvrir, acheminer, gérer et archiver les tickets et ModMails ;
 - attribuer des rôles et mettre à jour des panneaux ou statistiques ;
+- mesurer l'activité, l'Onboarding, la rétention et l'origine des arrivées lorsque le programme de croissance est volontairement activé par un administrateur ;
 - conserver les réglages propres à chaque serveur après un redémarrage ;
 - exploiter les profils de bots hébergés demandés par leurs propriétaires ;
 - diagnostiquer les erreurs, prévenir les abus et protéger l’Application.
@@ -104,6 +106,7 @@ La durée dépend de la nature de la donnée et de la configuration du serveur :
 
 - les codes temporaires de vérification ModMail expirent après environ cinq minutes et ne sont utilisables qu’une fois ;
 - les paramètres et identifiants de configuration sont conservés tant que la fonction ou le serveur reste configuré, puis peuvent être supprimés lors de sa désactivation ou de sa désinstallation ;
+- les mesures individuelles du programme de croissance sont conservées pour calculer les tendances et la rétention tant que le serveur utilise ce programme ou jusqu'à une demande valable de suppression ; désactiver son calendrier arrête les nouvelles automatisations sans effacer automatiquement l'historique ;
 - les avertissements et historiques techniques sont conservés jusqu’à leur retrait par une commande autorisée, la suppression de la configuration ou une demande valable ;
 - les métadonnées de tickets et ModMails sont conservées le temps nécessaire à leur gestion et à leur historique ;
 - les messages et transcripts envoyés dans Discord restent soumis aux suppressions effectuées dans les salons concernés et aux règles de conservation de Discord ;
@@ -152,4 +155,3 @@ Cette politique peut être mise à jour pour refléter une évolution des foncti
 - [Conditions d’Utilisation de {+} Gestion](https://github.com/Y3xoDev/gestion-bot-conditions)
 - [Politique de Confidentialité de Discord](https://discord.com/privacy)
 - [Conditions d’Utilisation de Discord](https://discord.com/terms)
-
